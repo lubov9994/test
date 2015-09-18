@@ -1,0 +1,70 @@
+body{
+    color: #848484;
+    text-align: center;
+}
+input{
+    margin-bottom: 5px;
+}
+
+.int-wrap {
+    display: inline-block;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    border-bottom-color: #b8b8b8;
+    margin: 5px;
+    padding: 5px;
+}
+
+.half-width-select{
+    width: 40%; /* Ширина списка в пикселах */
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.oper-select {
+    margin-top: 15px;
+    width: 60px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0;
+}
+
+.half-width-select option {
+
+    width: 100%; /* Ширина списка в пикселах */
+}
+
+div.form-group.int-wrap{
+    width: 230px;
+}
+.send_intervals{
+    pointer-events: none;
+}
+.error {
+    width: 100%;
+    color: red;
+    font-size: 14px;
+    display: none;
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+}
+
+.calculations {
+    background: rgba(252, 255, 255, 0.37);
+    border: 1px dotted springgreen;
+}
+
+.btn {
+    margin: 10px 0 ;
+}
+
+header {
+    height: 20px;
+    background:  linear-gradient(rgba(95, 245, 255, 0.08), #FFF);
+}
+
+footer{
+    height: 400px;
+    background:  linear-gradient( #FFF, rgba(95, 245, 255, 0.1));
+}
